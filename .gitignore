@@ -32,7 +32,7 @@
 *.dSYM/
 
 # Binaries
-1
+diner
 
 # vim swap files
 *.swp

@@ -2,8 +2,8 @@ CC=gcc
 
 CFLAGS=-Wall -g -std=c99
 
-objs=1
+objs=diner
 
 all: $(objs)
 
-1: CFLAGS+= -pthread
+diner: CFLAGS+= -pthread -lncurses
